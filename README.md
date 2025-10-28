@@ -1,0 +1,1 @@
+# This is a [Python](https://www.python.org/) project for [Boot.dev](https://www.boot.dev) in which I am creating an [Asteroids](https://en.wikipedia.org/wiki/Asteroids_(video_game)) clone
