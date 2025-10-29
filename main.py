@@ -1,4 +1,5 @@
 import pygame
+import sys
 
 from constants import *
 from player import Player
@@ -45,6 +46,12 @@ def main():
         for d in drawable:
             d.draw(screen)
         pygame.display.flip()
+
+        # Check for collisions
+        for asteroid in asteroids:
+            if player.is_colliding(asteroid):
+                print("Game over!")
+                sys.exit()
 
         # update the clock (60 FPS)
         dt = clock.tick(60) / 1000
