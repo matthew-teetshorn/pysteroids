@@ -17,3 +17,4 @@
 - [ ] Add a shield power-up
 - [ ] Add a speed power-up
 - [ ] Add bombs that can be dropped
+- [ ] Add continuous movement to player object (conservation of momentum)
