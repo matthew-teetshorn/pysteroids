@@ -16,3 +16,6 @@ wheels/
 # uv generated files
 pyproject.toml
 uv.lock
+
+# Logging info
+game_state.jsonl
